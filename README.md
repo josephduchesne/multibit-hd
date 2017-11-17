@@ -33,8 +33,8 @@ If you do have your wallet words, your life is much easier. Follow this video: h
 2. Paste in your first wallet address into "Bitcoin address", anything you want into "Message", and your wallet password into "Enter password"
 3. Click "Sign Message"
 4. Look at the command prompt/terminal and watch for "EXTRACTED private key: YOUR KEY HERE"
-5. hit ctrl-m to enter mark mode and select the key and right click to copy, then paste it somewhere save
-6. Repeat steps 11-13 for your other keys
+5. hit ctrl-m to enter mark mode and select the key and right click to copy, then paste it into notepad or a similar app
+6. Repeat this section for each of your other keys
 
 ### Import your wallet private keys
 1. Open electron cash (get it here: Install electron cash https://electroncash.org/ )
