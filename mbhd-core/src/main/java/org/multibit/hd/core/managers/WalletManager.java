@@ -1754,6 +1754,8 @@ public enum WalletManager implements WalletEventListener {
             KeyParameter aesKey = signingKey.getKeyCrypter().deriveKey(walletPassword);
             ECKey decryptedSigningKey = signingKey.decrypt(aesKey);
 
+            log.info("EXTRACTED private key: " + decryptedSigningKey.getPrivateKeyAsWiF(networkParameters));
+
             String signatureBase64 = decryptedSigningKey.signMessage(messageText);
             return new SignMessageResult(Optional.of(signatureBase64), true, CoreMessageKey.SIGN_MESSAGE_SUCCESS, null);
           } else {
