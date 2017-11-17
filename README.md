@@ -6,13 +6,14 @@ This repo has a one-line modification to allow you to extract the private keys f
 
 You do **not** need your wallet words for this, just your password.
 
+If you do have your wallet words, your life is much easier. Follow this video: https://www.youtube.com/watch?v=E-KcY6KUVnY
+
 ## How to extract your keys
 
 ### Preparation and opening
 1. First, *carefully* move all Bitcoin to a different wallet. You don't want them in a Multibit-HD wallet anyway, and if someone malicious forks this and tampers with the pre-built binary they could easily "phone home" with your keys and steal any bitcoins you have in the wallet. That said, they'd probably delete this section unless they were really dumb.
 2. Install JRE 1.8 http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
-4. Download the modified MultiBitHD jar file (or compile from this repo using the origin repo's instructions).
-..* Precompiled jar here: https://github.com/josephduchesne/multibit-hd/raw/develop/mbhd-swing/target/multibit-hd.jar
+4. Download the modified MultiBitHD jar file (or compile from this repo using the origin repo's instructions). Precompiled jar here: https://github.com/josephduchesne/multibit-hd/raw/develop/mbhd-swing/target/multibit-hd.jar
 5. Open "cmd" (windows command prompt, or Terminal on mac/linux)
 6. Drag in the jre1.8 java.exe (mine was located in "C:\Program Files\Java\jre1.8.0_151\bin\java.exe"), add " -jar " and drag in the "multibit-hd-mod.jar" into your cmd prompt (final output should look something like: "C:\Program Files\Java\jdk1.8.0_151\bin\java.exe" -jar C:\Users\your_user\Downloads\multibit-hd.jar )
 7. Press enter to open the modified multibit hd
