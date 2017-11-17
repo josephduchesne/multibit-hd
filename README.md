@@ -12,7 +12,7 @@ You do **not** need your wallet words for this, just your password.
 1. First, *carefully* move all Bitcoin to a different wallet. You don't want them in a Multibit-HD wallet anyway, and if someone malicious forks this and tampers with the pre-built binary they could easily "phone home" with your keys and steal any bitcoins you have in the wallet. That said, they'd probably delete this section unless they were really dumb.
 2. Install JRE 1.8 http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
 4. Download the modified MultiBitHD jar file (or compile from this repo using the origin repo's instructions).
-..- Precompiled jar here: https://github.com/josephduchesne/multibit-hd/raw/develop/mbhd-swing/target/multibit-hd.jar
+..* Precompiled jar here: https://github.com/josephduchesne/multibit-hd/raw/develop/mbhd-swing/target/multibit-hd.jar
 5. Open "cmd" (windows command prompt, or Terminal on mac/linux)
 6. Drag in the jre1.8 java.exe (mine was located in "C:\Program Files\Java\jre1.8.0_151\bin\java.exe"), add " -jar " and drag in the "multibit-hd-mod.jar" into your cmd prompt (final output should look something like: "C:\Program Files\Java\jdk1.8.0_151\bin\java.exe" -jar C:\Users\your_user\Downloads\multibit-hd.jar )
 7. Press enter to open the modified multibit hd
@@ -22,9 +22,9 @@ You do **not** need your wallet words for this, just your password.
 1. Find your bitcoin addresses using the Payments window. 
 2. If your payments window doesn't contain all of your addresses, you can export using the "Export" button
 3. open the resulting "transactions-DATE.csv" file, and read the RECIEVED transaction name from the *last* column and use https://blockchain.info to extract the desination wallet address
-..- For example, I have a line ending with "0873b33253886495dee232e35817a76f0dcbed6968d713df083c96f21776c2ce".
-..- Search for that transaction here: https://blockchain.info
-..- Grab the destination address to the right of the green arrow (in my example it's 1EYF2RDacFPrnWLKHoUuk4txjYXx9Kaq2D )
+..* For example, I have a line ending with "0873b33253886495dee232e35817a76f0dcbed6968d713df083c96f21776c2ce".
+..* Search for that transaction here: https://blockchain.info
+..* Grab the destination address to the right of the green arrow (in my example it's 1EYF2RDacFPrnWLKHoUuk4txjYXx9Kaq2D )
 4. Store each destination address that you used to recieve bitcoin in a document temporarily
   
 ### Extract wallet private keys
