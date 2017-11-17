@@ -1,4 +1,5 @@
 # MultiBit-HD extract private keys modification fork
+## This lets you get BitCoin Cash from your MultiBitHD wallet
 
 For the original documentation (how to use, why it's abandoned, how to compile) see the original readme in the original repo (forked from... above in github).
 
