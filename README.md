@@ -47,5 +47,5 @@ If you do have your wallet words, your life is much easier. Follow this video: h
 7. You now have recovered your BitCoin Cash
 
 If you find guide this useful, feel free to fire any tips my way:
-- Bitcoin **cash**: 1LA8Mx5vNMabHE9pT9iSL1kckBHcZ8Fysh
 - Bitcoin: 1NXZCF6uR1SrwYH7TMR4PMsXU6NXX2K3Sc
+- Bitcoin **cash**: 1LA8Mx5vNMabHE9pT9iSL1kckBHcZ8Fysh
